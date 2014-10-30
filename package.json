@@ -1,0 +1,30 @@
+{
+  "name": "react-article-metadata",
+  "version": "0.0.1",
+  "description": "React component to insert Readability-style article metadata",
+  "homepage": "http://adamrneary.com/react-article-metadata",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamrneary/react-article-metadata"
+  },
+  "bugs": {
+    "url": "git://github.com/adamrneary/react-article-metadata/issues"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "readability",
+    "metadata",
+    "component"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Neary (adamrneary)",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.8.3",
+    "react": "^0.11.0"
+  }
+}
