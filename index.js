@@ -13,22 +13,22 @@ var ReactArticleMetadata = React.createClass({
   },
   render: function() {
 
-    var time = DOM.time({
+    var time = React.DOM.time({
         className: 'published',
         datetime: moment(this.props.dateTimeString).format()
       },
       moment(this.props.dateTimeString).format('MMMM Do, YYYY')
     );
 
-    var fullName = DOM.span({
+    var fullName = React.DOM.span({
       className: 'fn'
     }, this.props.author);
 
-    var author = DOM.div({
+    var author = React.DOM.div({
       className: 'byline author vcard'
     }, fullName);
 
-    var container = DOM.div({
+    var container = React.DOM.div({
       className: 'metadata'
     }, [time, author]);
 

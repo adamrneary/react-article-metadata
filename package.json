@@ -1,6 +1,6 @@
 {
   "name": "react-article-metadata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component to insert Readability-style article metadata",
   "homepage": "http://adamrneary.com/react-article-metadata",
   "repository": {
